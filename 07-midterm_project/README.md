@@ -30,3 +30,4 @@ The notebook is available in this repository: **notebook.ipynb**
 
 1. Build the docker image `docker build -t marketing-prediction .`
 2. Run the docker image `docker run -it -p 1313:1313 marketing-prediction:latest`
+3. With the docker container running, we can make HTTP requests to port 1313 by running the predict-test python script `predict-test.py`. Adjust the parameters as you wish.
